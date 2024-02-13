@@ -1,0 +1,18 @@
+'''
+task 1
+'''
+
+import math
+
+e = int(input('Введите число e: '))
+f = int(input('Введите число f: '))
+g = int(input('Введите число g: '))
+h = int(input('Введите число h: '))
+
+a = ((abs(e - (6 / f))**6) + g)**0.5
+
+b = math.sin(e) + math.cos(h)**6
+
+c = ((66 * g) / (e*f-6))
+
+print(f'a = {a}, b = {b}, c = {c}')
